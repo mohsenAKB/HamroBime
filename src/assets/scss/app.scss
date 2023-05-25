@@ -1,0 +1,21 @@
+/* Core variables */
+@import "~bootstrap/scss/bootstrap";
+// @import "~bootstrap/dist/css/bootstrap.rtl.css";
+@import 'abstracts/vars';
+
+/* CSS Reset */
+@import 'base/reset';
+
+/* Fonts */
+@import 'base/_typography';
+
+/* Mixins, helpers and functions */
+@import 'abstracts/mixins';
+
+/* Vendor */
+
+/* Components */
+
+// layout
+@import 'layout/header';
+

@@ -1,0 +1,102 @@
+.header {
+  background: $bg-azure;
+  border: 1px solid $azure;
+  border-radius: 46px 0px 25px 46px;
+  margin-top: 4rem;
+  font-family: Vazir;
+  .header-custom-row {
+    @include flex-center;
+    flex-wrap: nowrap;
+  }
+  &__search {
+    @include flex-center;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    background: $yellow;
+    border-radius: 50%;
+    &-icon {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+  &__signin-btn {
+    background: $white;
+    border: 1px solid $azure;
+    border-radius: 1.6rem 0px 1.6rem 1.6rem;
+    color: $azure;
+    width: 100%;
+    padding: 1rem 0;
+  }
+  .nav-link {
+    color: $black-light;
+    font-size: 1rem;
+  }
+}
+
+@include media-breakpoint-up(xxl) 
+{  
+  .header
+  {
+    &__signin-btn 
+    {
+      position: relative;
+      right: 5px;
+    }
+  }
+}
+@include media-breakpoint-up(xl) 
+{  
+  .header
+  {
+    &__signin-btn 
+    {
+      position: relative;
+      right: 4px;
+    }
+  }
+}
+@include media-breakpoint-up(lg) 
+{  
+  .header
+  {
+    &__signin-btn 
+    {
+      position: relative;
+      right: 4px;
+    }
+  }
+}
+@include media-breakpoint-up(md) 
+{  
+  .header
+  {
+    &__signin-btn 
+    {
+      position: relative;
+      right: 12px;
+    }
+  }
+}
+@include media-breakpoint-up(sm) 
+{  
+  .header
+  {
+    &__signin-btn 
+    {
+      position: relative;
+      right: 12px;
+    }
+  }
+}
+@include media-breakpoint-down(xs) 
+{  
+  .header
+  {
+    &__signin-btn 
+    {
+      position: relative;
+      right: 12px;
+    }
+  }
+}
