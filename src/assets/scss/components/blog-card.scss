@@ -1,0 +1,32 @@
+// card blog section
+.blog-card {
+  .card {
+    border: none !important;
+  }
+
+  .card-blog-img-top {
+    border-top-left-radius: 2.1rem;
+    border-top-right-radius: 2.1rem;
+  }
+  .card-body {
+    border-bottom-left-radius: 2.1rem;
+    border-bottom-right-radius: 2.1rem;
+    border: 1px solid $azure;
+
+    .card-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      white-space: nowrap;
+      margin: 0.5rem 0.3rem;
+    }
+    .study-time {
+      font-size: 1.1rem;
+      margin: 1.3rem 0;
+    }
+  }
+  .blog-btn {
+    @include btn-insurance;
+    width: 8rem;
+    margin: auto;
+  }
+}
