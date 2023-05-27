@@ -134,13 +134,18 @@ ul {
 // Remove the gray background color from active links in IE 10.
 a {
   background: transparent;
+  color:$black-light;
   text-decoration: none;
+}
+a:hover {
+  color:$black-light;
 }
 
 // Addresses FF3/4 setting line-height on 'input' using !important in the UA stylesheet
 button,
 input {
   line-height: normal; // 1
+  outline: none!important;
 }
 
 // 1. Addresses appearance set to searchfield in Safari 5, Chrome

@@ -1,0 +1,29 @@
+@include media-breakpoint-up(xxl) {
+}
+@include media-breakpoint-up(xl) {
+}
+@include media-breakpoint-down(lg) {
+    .online-services__container {
+    &-heading 
+    {
+      font-size: 1.5rem;
+    }
+  }
+}
+@include media-breakpoint-up(md) {
+
+}
+@include media-breakpoint-up(sm) {
+  .category-insurance {
+    &__heading {
+      font-size: 1.6rem;
+
+    }
+  }
+}
+@include media-breakpoint-down(xs) {
+    .category-insurance__items
+    {
+        flex-wrap: wrap;
+    }
+}

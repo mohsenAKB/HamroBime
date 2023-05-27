@@ -12,10 +12,16 @@
 /* Mixins, helpers and functions */
 @import 'abstracts/mixins';
 
-/* Vendor */
+/* global */
+@import 'abstracts/global';
 
 /* Components */
 
 // layout
 @import 'layout/header';
+
+// pages
+@import 'pages/home/home';
+@import 'pages/home/_responsive-home';
+
 

@@ -1,0 +1,26 @@
+#swal-input1,
+#swal-input2,
+#swal-input3 {
+  font-family: Vazir;
+  color: $black-light;
+  font-size: 1rem;
+  background: $gray;
+  border: 0;
+  width: 80%;
+  border-radius: 1.62rem 0px 1.62rem 1.62rem;
+  padding: 0 1rem;
+}
+#swal-input1:placeholder,
+#swal-input2:placeholder,
+#swal-input3:placeholder {
+  font-family: Vazir;
+  color: $black-light;
+  font-size: 0.7rem;
+}
+
+.swal2-confirm {
+  width: 100%;
+  background: $azure !important;
+  width: 100% !important;
+  border-radius: 1.62rem 0px 1.62rem 1.62rem !important;
+}
