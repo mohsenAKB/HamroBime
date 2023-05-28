@@ -17,9 +17,11 @@
 
 /* Components */
 @import 'components/blog-card';
+@import 'components/service-card';
 
 // layout
 @import 'layout/header';
+@import 'layout/footer';
 
 // pages
 @import 'pages/home/home';

@@ -79,7 +79,7 @@ body {
               background: $azure;
               color: $white;
               border-top-left-radius: 11px;
-              border-top-right-radius:11px ;
+              border-top-right-radius: 11px;
               &::after {
                 transform: rotate(0deg) !important;
               }
@@ -87,6 +87,17 @@ body {
           }
         }
       }
+    }
+  }
+}
+
+// what-is-hamro
+.what-is-hamro {
+  &__container {
+    &-heading {
+      @include heading;
+      font-weight: bold;
+      margin-bottom: 2rem;
     }
   }
 }

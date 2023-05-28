@@ -1,0 +1,71 @@
+.footer {
+  background: $lighter-azure;
+  padding: 3rem;
+
+  &__brand {
+    &-text {
+      margin-bottom: 2rem;
+    }
+    &-contact-us {
+      @include flex-center;
+      flex-direction: column;
+      align-items: flex-start;
+
+      &--location {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.7rem;
+        p {
+          margin-right: 0.5rem;
+        }
+      }
+      &--phone {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.7rem;
+        p {
+          margin-right: 0.5rem;
+        }
+      }
+      &--email {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.7rem;
+        p {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+  &__menu {
+    @include flex-center;
+    flex-direction: column;
+    &-heading {
+      color: $green;
+      font-weight: bold;
+      font-size: 1.5rem;
+      text-align: center;
+      &:after {
+        content: "";
+        background: $green;
+        height: 1px;
+        width: 8rem;
+        display: block;
+        margin: 1rem 0;
+      }
+    }
+    &-list {
+      &--item {
+        margin-bottom: 0.6rem;
+      }
+    }
+  }
+  .trust-customer {
+    display: flex;
+    flex-direction: column;
+    .social-media__logo {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}

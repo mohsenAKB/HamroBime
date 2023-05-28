@@ -1,0 +1,12 @@
+.service-cards {
+  .card {
+    h5 {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    .card-body-btn {
+      background: $azure;
+      color: #fff;
+    }
+  }
+}
