@@ -6,7 +6,9 @@ import "bootstrap/dist/js/bootstrap.bundle";
 import "../../../node_modules/slick-carousel/slick/slick";
 import "../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
-
+import { gsap } from "gsap";
+import { PixiPlugin } from "gsap/PixiPlugin.js";
+import { MotionPathPlugin } from "gsap/MotionPathPlugin.js";
 
 import Swal from "../../../node_modules/sweetalert2";
 const sendOrderBtn = document.querySelector("#send-order");
