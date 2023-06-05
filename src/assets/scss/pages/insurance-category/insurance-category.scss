@@ -1,0 +1,33 @@
+.insurance-container {
+  padding: 2rem;
+  background: #ffffff;
+  border: 2px solid $azure;
+  box-shadow: 0px 2px 4px 2px rgba(19, 122, 122, 0.12);
+  border-radius: 16px 16px 0px 16px;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  &__details-heading {
+    color: $black-dark;
+    font-weight: 700;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    text-align: right;
+  }
+  &__details-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    background: #ffffff;
+    border: 0.8px solid $azure;
+    box-shadow: 0px 2px 4px 2px rgba(19, 122, 122, 0.12);
+    border-radius: 1rem 1rem 0px 1rem;
+    padding: 1.3rem;
+  }
+}
+
+.what-is-hamro__container-heading
+{
+   justify-content: unset;
+   color: $azure;
+}

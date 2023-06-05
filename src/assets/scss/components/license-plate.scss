@@ -1,0 +1,98 @@
+.license-plate {
+  margin-top: 3rem;
+  width: 16rem;
+  border: 1px solid black;
+  display: flex;
+  &__iran {
+    background: $white;
+    color: $black;
+    position: relative;
+
+    input {
+      width: 3.5rem;
+      height: 3rem;
+      text-align: center;
+      background: #D2D4DA;
+      border: none;
+      border-radius: 0.5rem;
+      &::placeholder {
+        color: #5C6170;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 0.3rem;
+      }
+    }
+    p {
+      position: absolute;
+      font-size: 0.6rem;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      text-align: center;
+      top: 0;
+    }
+  }
+  &__right-item {
+    background: $white;
+    color: $black;
+
+    input {
+      width: 3.5rem;
+      height: 3rem;
+      text-align: center;
+
+      border: 1px solid;
+      border-radius: 0.5rem;
+      &::placeholder {
+        color: $black-dark;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 0.3rem;
+      }
+    }
+  }
+  &__center-item {
+    background: $white;
+    color: $black;
+
+    input {
+      width: 3.5rem;
+      height: 3rem;
+      text-align: center;
+
+      border: 1px solid;
+      border-radius: 0.5rem;
+      &::placeholder {
+        color: $black-dark;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 0.3rem;
+      }
+    }
+  }
+  &__left-item {
+    background: $white;
+    color: $black;
+
+    input {
+      width: 3.5rem;
+      height: 3rem;
+      text-align: center;
+
+      border: 1px solid;
+      border-radius: 0.5rem;
+      &::placeholder {
+        color: $black-dark;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 0.3rem;
+      }
+    }
+  }
+  &__iran--flag {
+    background: $blue;
+    color: $white;
+    flex: 1 1;
+  }
+}
