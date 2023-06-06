@@ -11,6 +11,7 @@
   &__search {
     @include flex-center;
     width: 42px;
+    position: relative;
     height: 42px;
     cursor: pointer;
     background: $yellow;
@@ -20,6 +21,28 @@
       height: 1.5rem;
     }
   }
+  &__search-container {
+    &-box {
+      display: none;
+
+      .btn-close {
+        display: none;
+      }
+      input {
+        position: absolute;
+        top: 110%;
+        left: 21%;
+        display: none;
+        transition: all 0.3s ease-in;
+        border: 1px solid $azure;
+        padding: 0.6rem;
+        &::placeholder {
+          color: gray;
+        }
+      }
+    }
+  }
+
   &__signin-btn {
     background: $white;
     border: 1px solid $azure;
@@ -179,7 +202,6 @@ a {
   min-width: 220px;
   max-width: 350px;
   text-align: right;
-
 }
 .header .menu > ul > li .sub-menu.mega-menu > .list-item > ul > li {
   line-height: 1;
@@ -216,7 +238,7 @@ a {
   width: 1.5rem;
   height: 1.5rem;
   margin-right: 0.5rem;
-  margin-bottom: .3rem;
+  margin-bottom: 0.3rem;
 }
 .header .menu > ul > li .sub-menu.mega-menu > .list-item > ul > li > a {
   padding: 10px 0;
@@ -460,8 +482,7 @@ a {
     > .list-item.text-center
     .title {
     margin-bottom: 20px;
-        margin-bottom: 1rem;
-
+    margin-bottom: 1rem;
   }
   .header
     .menu
@@ -475,8 +496,7 @@ a {
   .header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-item {
     flex: 0 0 100%;
     padding: 0px;
-        margin-bottom: 1rem;
-
+    margin-bottom: 1rem;
   }
   .header .menu > ul > li .sub-menu > ul > li > a,
   .header .menu > ul > li .sub-menu.mega-menu > .list-item > ul > li > a {
@@ -501,12 +521,21 @@ a {
     visibility: visible;
     opacity: 1;
   }
-  .header .menu > ul > li .sub-menu.mega-menu > .list-item .mega-menu-heading
-  {
+  .header .menu > ul > li .sub-menu.mega-menu > .list-item .mega-menu-heading {
     margin-bottom: 1rem;
   }
-  .header .menu > ul > li .sub-menu.mega-menu > .list-item .single-column-menu > ul > li
-  {
+  .header
+    .menu
+    > ul
+    > li
+    .sub-menu.mega-menu
+    > .list-item
+    .single-column-menu
+    > ul
+    > li {
     margin-bottom: 1rem;
   }
 }
+
+
+
