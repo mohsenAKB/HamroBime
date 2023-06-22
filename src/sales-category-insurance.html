@@ -137,7 +137,7 @@
         </p>
         <div class="insurance-container__details-items">
           <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-md-5">
               <div class="license-plate">
                 <div class="license-plate__iran">
                   <input
@@ -149,6 +149,7 @@
                   />
                   <p>ایران</p>
                 </div>
+                <div class="license-plate__line"></div>
                 <div class="license-plate__right-item">
                   <input
                     type="tel"
@@ -167,15 +168,52 @@
                   </select>
                 </div>
                 <div class="license-plate__left-item">
-                  <input type="tel" name="" id="" placeholder="33" maxlength="2" />
+                  <input
+                    type="tel"
+                    name=""
+                    id=""
+                    placeholder="33"
+                    maxlength="2"
+                  />
                 </div>
                 <div class="license-plate__iran--flag">
-                  <img src="" alt="">
-                  <p>I.R.</p>
+                  <img src="/assets/images/content/iran.svg" alt="" />
+                  <div class="license-plate__iran--flag-text">
+                    <p>I.R.</p>
+                    <p>IRAN</p>
+                  </div>
                 </div>
               </div>
+              <div class="national-id__container">
+                <input
+                  type="number"
+                  class="national-id__input"
+                  placeholder="کد ملی صاحب پلاک"
+                />
+                <p class="national-id__text">
+                  بر روی برگ سبز یا کارت خودرو قابل مشاهده است.
+                </p>
+                <a href="#" class="category-insurance__btn-extend mt-4">
+                  ادامه
+                  <svg
+                    width="8"
+                    height="12"
+                    viewBox="0 0 8 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.5 11L1.5 6.00003L6.5 1.00003"
+                      stroke="#4B4847"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-md-7">
               <img
                 class="insurance-container__details-img"
                 src="/assets/images/content/sales-insurance.svg"

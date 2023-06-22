@@ -10,9 +10,64 @@
 
       color: $light-black;
     }
-    &-img 
-    {
-
+    &-img {
     }
+    .license-plate {
+      &__iran {
+      }
+      &__line {
+        background: #000;
+        color: #000;
+        height: 100%;
+        padding: 0.1rem;
+        margin: 0.1rem;
+      }
+      &__right-item {
+      }
+      &__center-item {
+      }
+      &__left-item {
+      }
+      &__iran--flag {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 0.3rem;
+        img {
+          width: 1.3rem;
+          margin: auto;
+        }
+        &-text {
+          p {
+            text-align: left;
+            font-size: 0.6rem;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
+
+.national-id__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  .national-id__input {
+    border-radius: 5px;
+    border: 2px solid $dark-gray;
+    background: #f5f5f5;
+    width: 17.25rem;
+    height: 3.5rem;
+    flex-shrink: 0;
+    padding-right: 0.5rem;
+  }
+  .national-id__text {
+    color: #9d9490;
+    text-align: center;
+    font-size: 0.875rem;
   }
 }
